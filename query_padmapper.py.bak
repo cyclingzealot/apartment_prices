@@ -128,7 +128,7 @@ The guy who wrote Padmapper says this tool puts a pretty heavy load on his serve
 would rather it was run no more than once a month.  If you're just looking for some
 apartment data, I've put some in apts-2013-01-29, which is for Boston in January 2013.
 """
-    start(*sys.argv[1:])
+    # start(*sys.argv[1:])
 
     print """
 Ones labeled $6000 in the output file are really $6000+.  You can fix them manually
