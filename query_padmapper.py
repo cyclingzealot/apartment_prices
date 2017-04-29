@@ -86,6 +86,9 @@ def query(kwargs):
         print "ERROR", full_url
         return []
 
+
+    print full_url
+
     for apartment in j:
         apts.append(( apartment['id'], apartment['lng'], apartment['lat'] ))
 
